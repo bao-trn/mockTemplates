@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.navbar {
+    position : fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4rem;
+    background: salmon;
+}
+
+.nav-list {
+    padding-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.middle-link {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.presentation {
+    height: calc(100vh - 4rem);
+    margin-top: 4rem;
+    background: linear-gradient(45deg,#383B3E,#151416);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation__name {
+    margin-bottom: -1.25rem;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.presentation__job{
+    font-style: italic;
+    font-weight: 200;
+    color: #BE3144;
+}
+
+.project {
+    background: #45567D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project__title {
+    min-width: 320px;
+    padding-top: 4rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin: 0;
+    font-size: 2.5rem;
+
+
+}
+
+.white-line {
+    min-width: 340px;
+    max-width: 42rem;
+    margin: 0 auto 3rem auto;
+    background: white;
+    height: 1px;
+    width: 95%;
+}
+
+.project__card {
+    width: 95vw;
+    margin-bottom: 2rem;
+    
+    background: #303841;
+    border-radius: 2px;
+}
+
+.project__img {
+    min-width: 320px; 
+    width: 95vw;
+    
+}
+
+.project__link {
+    text-decoration: none;
+    color: white;
+}   
+
+.project__name {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

@@ -1,0 +1,65 @@
+html {
+    font-size: 10px;
+  }
+  body {
+    font-family: 'Segoe UI';
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    
+  }
+  #main {
+    border-radius: 0.5rem;
+    background-color: #ddd7c6;
+    padding-bottom: 2.5rem;
+  }
+  #title {
+    padding-top: 1.7rem;
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-weight: normal;
+  }
+  #img-div {
+    
+    background-color: white;
+  }
+  #image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  #img-caption {
+    font-size: 1.6rem;
+  }
+  #tribute-info {
+    margin: 0.9rem 0 4rem 0;
+    font-size: 1.7rem;
+  }
+  ul{
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.5em;
+    
+  }
+  li , blockquote {
+    font-size: 1.4rem;
+    margin : 1.5rem 37% 0 37%;
+  }
+  #borlaug-quote {
+    font-style: italic;
+    text-align: left;
+    margin-bottom: 3rem;
+  }
+  
+  #footer {
+    font-weight: bold;
+    
+  }
+  
+  
+  
+  
+  
+  
